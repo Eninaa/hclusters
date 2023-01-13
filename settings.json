@@ -1,0 +1,15 @@
+{
+  "ConnectionStringMongo": "mongodb://192.168.57.102:27017", 
+    "ConnectionStringPostgre": {
+        "URL": "jdbc:postgresql://192.168.57.102/test",
+        "user": "postgres",
+        "password": "samis"
+    },
+  "priorityOrder": ["ingeo", "osm"],
+  
+  "collection": "h_clusters",
+  "outputFileName": "out15",
+  "filter": {
+    "block" : "Похвистнево"
+  }
+}
